@@ -29,8 +29,7 @@ let newDate = new Date()
 // `${newDate.getDay()} and the time`
 
 newDate.toLocaleString('default', {
-   weekday:"long",
-   
+   weekday:"long",   
 })
 
 
