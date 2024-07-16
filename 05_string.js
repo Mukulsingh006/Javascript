@@ -19,12 +19,12 @@ console.log(random.indexOf('o'));
 const newString = random.substring(0,5) // start counnt at zero nut last digit is not countable  ++++++
 console.log(newString)
 
-const anotherString = random.slice(-2,5)
+const anotherString = random.slice(-2,5) // slice is use to avoid or jump to next 
 console.log(anotherString);
 
 const newStringOne =  "   Mukul    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim()); // trim is clear space 
 
 const url = "https://mukul.com/mukul%20singh"
 console.log(url.replace('%20', '_'));
