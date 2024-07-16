@@ -4,7 +4,7 @@ const score =  400
 const balance = new Number(100.5) // this is way to express number or other things 
 // console.log(balance);
 
-// console.log(balance.toString().length)// it is converted into string andd ger property of string like : concat , length 
+// console.log(balance.toString().length) // it is converted into string andd ger property of string like : concat , length 
 //  console.log(balance.toFixed(2)) // it used to show decimal " () " in the colon we set the value 
 
 const otherNumber =  123.84444
