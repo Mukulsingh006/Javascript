@@ -25,16 +25,20 @@ const jsUser = {
 // console.log(jsUser [mySym]);
 
 jsUser.email = "mukul1@Yahoo.com"
-Object.freeze(jsUser) // freeze hone pr kuch or add nhi hota 
+// Object.freeze(jsUser) // freeze hone pr kuch or add nhi hota 
 jsUser.email = "singh@youtube.com"
 // console.log(jsUser);
 
 jsUser.greeting = function(){
     console.log("Hello js user");
 }
+
+jsUser.greeting2 = function(){
+    console.log(`Hello JS user, ${this.fullName}`);
+}
 console.log(jsUser. greeting())
 
-
+console.log(jsUser.greeting2());
 
 
 
