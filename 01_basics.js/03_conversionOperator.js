@@ -5,10 +5,10 @@
 // let valueInNumber =  Number(score)
 
 // console.log(typeof valueInNumber);
-// console.log(valueInNumber); // NAN = NOt A Number
+// console.log(valueInNumber);
 
 // "33" => 33
-// "33abc" => Nan
+// "33abc" => Nan- not a number
 // true => 1 ; false => 0
 
 // let isLoggedIN = 1
