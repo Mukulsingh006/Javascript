@@ -29,3 +29,12 @@ const obj3 = {...obj1,...obj2}
 console.log(obj3);
 
 
+const object = [  1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 0 ]
+object.concat(obj1 , obj2)
+ console.log(object);
+ 
+
+
+
+
+
